@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk&family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Results summary component</title>
+</head>
+<body>
+    <div class="card">
+        <div class="result">
+            <h3 class="result__title">Your Result</h3>
+            <div class="result__circle">
+                <span class="result-number">76</span>
+                <span class="result-subNumber">of 100</span>
+            </div>
+            <h2 class="result__subTitle">Great</h2>
+            <p class="result__info">You scored higher than 65% of the people who have taken <br> these tests.</p>
+        </div>
+
+        <div class="summary">
+            <h3 class="summary__title">Summary</h3>
+            <div class="summary__detail">
+                <div class="box" style="background-color: rgba(165, 42, 42, 0.125);">
+                    <div class="box__main">
+                        <img src="./images/icon-reaction.svg" alt="logo memory" class="card__img">
+                        <span class="box-title">&nbsp;Reaction</span>
+                    </div>
+                    <div class="box__sub"><b>80</b> / 100</div>
+                </div>
+                <div class="box" style="background-color: rgba(255, 166, 0, 0.125);">
+                    <div class="box__main">
+                        <img src="./images/icon-memory.svg" alt="logo reaction" class="card__img">
+                        <span class="box-title">&nbsp;Memory</span>
+                    </div>
+                    <div class="box__sub"><b>92</b> / 100</div>
+                </div>
+                <div class="box" style="background-color: rgba(0, 128, 0, 0.125);">
+                    <div class="box__main">
+                        <img src="./images/icon-verbal.svg" alt="logo verbal" class="card__img">
+                        <span class="box-title">&nbsp;Verbal</span>
+                    </div>
+                    <div class="box__sub"><b>61</b> / 100</div>
+                </div>
+                <div class="box" style="background-color: rgba(0, 0, 255, 0.125);">
+                    <div class="box__main">
+                        <img src="./images/icon-visual.svg" alt="logo visual" class="card__img">
+                        <span class="box-title">&nbsp;Visual</span>
+                    </div>
+                    <div class="box__sub"><b>72</b> / 100</div>
+                </div>
+            </div>
+            <div class="summary__button">Continue</div>
+        </div>
+    </div>
+</body>
+</html>
